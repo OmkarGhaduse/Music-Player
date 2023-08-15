@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #4286f4, #38c6ff);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.track-art-container {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #fff;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    -moz-box-shadow: 0px 6px 5px #ccc;
+    -webkit-box-shadow: 0px 6px 5px #ccc;
+    box-shadow:  0px 6px 5px #ccc;
+    -moz-box-radius: 190px;
+    -webkit-border-radius: 190px;
+    border-radius: 190px;
+}
+
+.player {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+.wrapper > .slider_container {
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+.details {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.now-playing {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.track-name {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.track-artist {
+    font-size: 1.5rem;
+}
+
+.slider_container {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+.slider_container1 i {
+    margin: 0 1px;
+    justify-content: center; 
+}
+
+.current-time,
+.total-duration {
+    padding: 0 10px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons > div {
+    padding: 15px;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    cursor: pointer;
+}
+
+.buttons > div:hover {
+    opacity: 1;
+}
+
+.buttons i {
+    font-size: 2rem;
+}
+
+
+
+
+
